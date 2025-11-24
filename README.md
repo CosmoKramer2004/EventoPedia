@@ -1,4 +1,4 @@
-# Eventopedia 🎟️
+# Eventopedia 
 
 **Eventopedia** is a modern, full-stack event booking platform that combines a sleek UI with an AI-powered recommendation engine. It allows users to discover events, book tickets with interactive seat selection, and receive personalized suggestions based on their interests.
 
