@@ -1,0 +1,31 @@
+{
+  "name": "tbs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "@sparticuz/chromium": "^141.0.0",
+    "bcryptjs": "^3.0.3",
+    "express": "^5.1.0",
+    "framer-motion": "^12.23.24",
+    "html-pdf-node": "^1.0.8",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^3.0.4",
+    "lucide-react": "^0.554.0",
+    "mongoose": "^9.0.0",
+    "next": "16.0.3",
+    "puppeteer-core": "^24.31.0",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^9",
+    "eslint-config-next": "16.0.3"
+  }
+}

@@ -1,0 +1,61 @@
+.page {
+    padding: 80px 20px;
+}
+
+.title {
+    margin-bottom: 60px;
+    font-size: 3rem;
+    color: var(--text);
+}
+
+.statsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 40px;
+}
+
+.card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.card h3 {
+    margin-bottom: 25px;
+    color: var(--text);
+    font-size: 1.3rem;
+}
+
+.statRow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    color: var(--text-dim);
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+}
+
+.value {
+    color: var(--text);
+    font-weight: 600;
+}
+
+.revenue {
+    color: var(--primary);
+    font-weight: 700;
+}
+
+.progress {
+    height: 4px;
+    background: #E0E0E0;
+    border-radius: 2px;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.bar {
+    height: 100%;
+    background: var(--primary);
+    border-radius: 2px;
+}

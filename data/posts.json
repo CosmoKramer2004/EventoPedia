@@ -1,0 +1,21 @@
+[
+  {
+    "id": "p1763912061603",
+    "eventId": "1763903067680",
+    "userId": "u1763903000263",
+    "content": "Hey there, the event's going to start soon!",
+    "hearts": [
+      "u2"
+    ],
+    "comments": [
+      {
+        "id": "c1763912123186",
+        "userId": "u2",
+        "userName": "John Doe",
+        "comment": "Yeah buddy, I'm with you here.",
+        "createdAt": "2025-11-23T15:35:23.186Z"
+      }
+    ],
+    "createdAt": "2025-11-23T15:34:21.603Z"
+  }
+]

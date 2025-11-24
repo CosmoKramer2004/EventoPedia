@@ -1,0 +1,44 @@
+[
+  {
+    "id": "b1763902312700",
+    "userId": "u1",
+    "eventId": "3",
+    "seatIds": [
+      "2-4",
+      "2-3"
+    ],
+    "amount": 90,
+    "date": "2025-11-23T12:51:52.700Z",
+    "eventTitle": "Laugh Out Loud: Comedy Night",
+    "eventDate": "2023-11-30",
+    "eventLocation": "The Comedy Club, Chicago"
+  },
+  {
+    "id": "b1763908222507",
+    "userId": "u2",
+    "eventId": "2",
+    "seatIds": [
+      "0-6",
+      "0-5"
+    ],
+    "amount": 598,
+    "date": "2025-11-23T14:30:22.507Z",
+    "eventTitle": "Future Tech Summit 2024",
+    "eventDate": "2024-01-20",
+    "eventLocation": "Convention Center, San Francisco"
+  },
+  {
+    "id": "b1763912098142",
+    "userId": "u2",
+    "eventId": "1763903067680",
+    "seatIds": [
+      "0-1",
+      "0-2"
+    ],
+    "amount": 48,
+    "date": "2025-11-23T15:34:58.142Z",
+    "eventTitle": "Wow, event",
+    "eventDate": "2025-11-24",
+    "eventLocation": "Chennai"
+  }
+]

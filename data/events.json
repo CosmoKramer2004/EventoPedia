@@ -1,0 +1,81 @@
+[
+  {
+    "id": "1",
+    "title": "Neon Symphony Concert",
+    "description": "Experience the fusion of classical music and electronic beats in a visual spectacle.",
+    "date": "2023-12-15",
+    "time": "20:00",
+    "location": "Grand Arena, New York",
+    "price": 120,
+    "image": "/images/concert.png",
+    "totalSeats": 60,
+    "rows": 6,
+    "cols": 10,
+    "category": "Music"
+  },
+  {
+    "id": "2",
+    "title": "Future Tech Summit 2024",
+    "description": "Join industry leaders to discuss AI, Blockchain, and the future of humanity.",
+    "date": "2024-01-20",
+    "time": "09:00",
+    "location": "Convention Center, San Francisco",
+    "price": 299,
+    "image": "/images/conference.png",
+    "totalSeats": 100,
+    "rows": 10,
+    "cols": 10,
+    "category": "Technology",
+    "bookedSeats": [
+      "0-6",
+      "0-5"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Laugh Out Loud: Comedy Night",
+    "description": "A night of hilarious stand-up comedy featuring top international comedians.",
+    "date": "2023-11-30",
+    "time": "19:30",
+    "location": "The Comedy Club, Chicago",
+    "price": 45,
+    "image": "/images/comedy.png",
+    "totalSeats": 40,
+    "rows": 5,
+    "cols": 8,
+    "category": "Comedy",
+    "bookedSeats": [
+      "2-4",
+      "2-3"
+    ],
+    "reviews": [
+      {
+        "userId": "u1",
+        "userName": "Admin User",
+        "rating": 5,
+        "comment": "Wow, what a show.",
+        "date": "2025-11-23T12:52:27.315Z"
+      }
+    ]
+  },
+  {
+    "id": "1763903067680",
+    "title": "Wow, event",
+    "description": "Great event",
+    "date": "2025-11-24",
+    "time": "19:33",
+    "location": "Chennai",
+    "price": 24,
+    "totalSeats": 20,
+    "rows": 5,
+    "cols": 4,
+    "category": "Entertainment",
+    "image": "/images/concert.png",
+    "producerId": "u1763903000263",
+    "bookedSeats": [
+      "0-1",
+      "0-2"
+    ],
+    "reviews": []
+  }
+]

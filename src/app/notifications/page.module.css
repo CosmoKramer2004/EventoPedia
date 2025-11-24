@@ -1,0 +1,124 @@
+.page {
+    padding: 80px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.title {
+    font-size: 3rem;
+    color: var(--text);
+}
+
+.badge {
+    background: var(--primary);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    font-family: var(--font-mono);
+}
+
+.notifications {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.notification {
+    background: var(--surface);
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    transition: border-color 0.3s;
+}
+
+.notification.unread {
+    border-left: 4px solid var(--primary);
+    background: linear-gradient(to right, var(--primary-glow), var(--surface));
+}
+
+.notificationContent {
+    flex: 1;
+}
+
+.notificationHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.eventTitle {
+    font-family: var(--font-heading);
+    font-size: 1.3rem;
+    color: var(--text);
+}
+
+.date {
+    font-size: 0.85rem;
+    color: var(--text-dim);
+    font-family: var(--font-mono);
+}
+
+.message {
+    color: var(--text-dim);
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.link {
+    color: var(--primary);
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.3s;
+}
+
+.link:hover {
+    border-color: var(--primary);
+}
+
+.markRead {
+    background: none;
+    border: 1px solid var(--border);
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: var(--text-dim);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.markRead:hover {
+    border-color: var(--primary);
+    background: var(--primary);
+    color: white;
+}
+
+.empty {
+    text-align: center;
+    padding: 100px 40px;
+    color: var(--text-dim);
+}
+
+.empty svg {
+    margin-bottom: 20px;
+    opacity: 0.3;
+}
+
+.empty p {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+}
