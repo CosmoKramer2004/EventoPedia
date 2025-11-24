@@ -1,6 +1,6 @@
 # Eventopedia 🎟️
 
-**Eventopedia** is a modern, full-stack event booking platform that combines a sleek "Neon Dark" UI with an AI-powered recommendation engine. It allows users to discover events, book tickets with interactive seat selection, and receive personalized suggestions based on their interests.
+**Eventopedia** is a modern, full-stack event booking platform that combines a sleek UI with an AI-powered recommendation engine. It allows users to discover events, book tickets with interactive seat selection, and receive personalized suggestions based on their interests.
 
 ![Eventopedia UI](public/images/concert.png)
 
@@ -19,7 +19,6 @@
 *   **Tech:** Powered by Python, `sentence-transformers`, and MongoDB Vector Search.
 
 ### 🎨 Modern UI/UX
-*   **Neon Dark Theme:** A premium aesthetic with glassmorphism, gradients, and smooth animations.
 *   **Responsive Design:** Fully optimized for Desktop, Tablet, and Mobile.
 
 ## 🛠️ Tech Stack
@@ -106,8 +105,4 @@ We have a helper script to start everything (Node Server + Python AI Service) at
 └── public/               # Static Assets
 ```
 
-## 🤝 Contributing
-Contributions are welcome! Please fork the repository and submit a pull request.
 
-## 📄 License
-This project is licensed under the MIT License.
